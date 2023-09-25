@@ -6,7 +6,7 @@ import streamlit as st
 from snowflake.connector import connect
 from snowflake.connector.connection import SnowflakeConnection
 
-from utils import gui, sql
+from Resources import gui, sql
 
 TIME_TO_LIVE = 60 * 60 * 6  # 6 hours caching
 
