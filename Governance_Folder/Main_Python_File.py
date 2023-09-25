@@ -28,7 +28,7 @@ import base64
 
 import plotly.express as px
 
-image = Image.open('Hackathon/SnowGov.png')
+image = Image.open('Governance_Folder/image.png')
 
 st.sidebar.image(image, caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
@@ -2028,7 +2028,7 @@ def about():
 
     # Create an expander for the about sectio
 
-    image_path = 'Hackathon/SnowGov.png'
+    image_path = 'Governance_Folder/image.png'
 
     image = Image.open(image_path)
 
