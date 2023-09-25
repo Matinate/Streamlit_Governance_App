@@ -2,7 +2,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-from utils import gui
+from Resources import gui
 
 ALTAIR_AXIS_CONFIG = dict(
     gridColor="#e6eaf1",
