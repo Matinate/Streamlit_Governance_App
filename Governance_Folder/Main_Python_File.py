@@ -2043,25 +2043,15 @@ def about():
         # Write the about content with styling
 
         st.markdown("""
-
             <div style="font-family: 'Sans-serif';">
-
                 <p>This project is to demonstrate the power of Snowflake Native Apps. The objective of this project is to develop an App that provides GUI-based governance features for managing the Snowflake environment. Some of the features include:</p>
-
                 <ul>
-
                     <li>User interface through which the IT team can configure Organization and Account Parameters</li>
-
                     <li>User Interface through which IT teams can create Projects (a logical entity). For each Project, they can create multiple Environments (Dev, Stage, Production). Internally for each environment, the app creates Databases or schemas depending on configuration. For each project and environment, provide a GUI to create warehouses</li>
-
                     <li>Onboard users to projects and assign respective roles on each environment (i.e. Database or Schemas)</li>
-
                     <li>Provide Cost-monitoring dashboards drilled down by Accounts, Projects, Environments, Users, etc.</li>
-
                 </ul>
-
             </div>
-
             """, unsafe_allow_html=True)
 
 def Menu_navigator():
@@ -2147,11 +2137,9 @@ def main():
         st.session_state.conn = None
 
     if "connections" not in st.session_state:
-
         st.session_state.connections = {}
 
     Menu_navigator()
 
 if __name__ == "__main__":
-
     main()
